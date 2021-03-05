@@ -1,0 +1,16 @@
+.game_Container {
+    display:grid;
+    grid-template-columns:repeat(9,auto);
+    width:276px;
+    margin:0px auto;
+}
+.cell{
+    font-family:'Times New Roman', Times, serif;
+    width:30px;
+    height:30px;
+    box-shadow: 0 0 0 1px #333333;
+    border:1px solid black;
+    cursor:pointer;
+    font-stretch: normal;
+    font-size:20px;
+}
